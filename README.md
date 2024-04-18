@@ -1,5 +1,8 @@
 # Python Developer Qualification Task
 
+## Important! 
+In script.py, from line 88 to end, is not in the video. 
+
 ## Overview:
 Create a Python script that demonstrates key Python skills, including making an HTTP GET request, using list comprehension with a conditional filter, type checking, and utilizing f-strings.
 
