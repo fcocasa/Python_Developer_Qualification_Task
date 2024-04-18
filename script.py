@@ -84,3 +84,24 @@ for line in df.to_dict(orient='records'):
 # Understanding element type
 for value,col in zip(df.values[0],['userid','id','title','completed']):
     print(f'The column {col} type is {type(value)}')
+
+###################################
+########## NOT IN VIDEO ###########
+###################################
+
+# Checking if any title is int from the original dictionary
+
+correct = []
+incorrect = []
+for line in txt:
+    if type(line['title']) == int:
+        incorrect += [line['title']]
+    elif type(line['title']) == str:
+        correct+= [line['title']]
+    else:
+        print(f'Wrong format: {type(line["title"])}')
+if len(incorrect) > 0:
+    print('Wrong format',incorrect)
+else:
+    print('Every title is a string')
+
