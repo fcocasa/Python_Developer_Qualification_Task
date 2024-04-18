@@ -2,6 +2,7 @@
 
 ## Important! 
 In script.py, from line 88 to end, is not in the video.
+
 It addresses the task of verifying whether one of the extracted titles is of type int.
 
 ## Overview:
