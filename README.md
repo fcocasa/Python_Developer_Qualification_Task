@@ -1,7 +1,8 @@
 # Python Developer Qualification Task
 
 ## Important! 
-In script.py, from line 88 to end, is not in the video. 
+In script.py, from line 88 to end, is not in the video.
+It addresses the task of verifying whether one of the extracted titles is of type int.
 
 ## Overview:
 Create a Python script that demonstrates key Python skills, including making an HTTP GET request, using list comprehension with a conditional filter, type checking, and utilizing f-strings.
@@ -17,7 +18,6 @@ Implement this using list comprehension.
 ### Display Results with f-Strings:
 Format and print the filtered titles using f-strings.
 Ensure that each printed title is a string.
-
 
 ### Type Checking:
 Demonstrate checking whether one of the extracted titles is of type int.
